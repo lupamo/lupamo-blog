@@ -1,0 +1,36 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-align: border-box;
+}
+.mascot {
+	border: 1px solid red;
+	margin: 0;
+}
+
+@media screen and (max-width: 768px){
+	*{
+		width: 100%;
+		font-size: 87.5%;
+	}
+	.home{
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+	
+}
+@media screen and (max-width: 420px){
+	*{
+		font-size: 87.5%;
+		width: 100%
+	}
+	.home{
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+	
+}
